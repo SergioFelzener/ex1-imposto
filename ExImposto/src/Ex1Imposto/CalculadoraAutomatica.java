@@ -8,5 +8,6 @@ public class CalculadoraAutomatica {
 		
 		System.out.println(salarioLiquido);
 	}
+	
 
 }
