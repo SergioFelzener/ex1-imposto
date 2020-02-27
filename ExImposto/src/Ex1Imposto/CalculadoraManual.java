@@ -27,7 +27,7 @@ public class CalculadoraManual {
 		
 		System.out.println("Desconto Total : " + (descontoIrpf + descontoInss));
 		
-		salarioLiquido = salarioIrpf - descontoInss;
+		salarioLiquido = salarioIrpf;
 		System.out.println("Salario Liquido: " + salarioLiquido);
 	}
 
