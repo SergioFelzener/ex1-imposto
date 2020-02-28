@@ -23,10 +23,10 @@ public class CalculadoraManual {
 		double descontoIrpf = irpf.calcularDesconto();
 		System.out.println("Desconto IRPF " + descontoIrpf);
 		
-		
+		// imprimi desconto total
 		System.out.println("Desconto Total : " + (descontoIrpf + descontoInss));
 		
-		
+		// imprimi salario liquido
 		salarioLiquido = salarioIrpf - descontoIrpf;
 		System.out.println("Salario Liquido: " + salarioLiquido);
 	}
